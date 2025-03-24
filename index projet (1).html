@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section À propos -->
+    <section id="about">
+        <h1>À propos de moi</h1>
+
+        <!-- Image illustrateur avec texte au-dessus -->
+        <div class="illustrator">
+            <h3>Je suis Jean Myrtheau, développeur en devenir passionné par le web et le design</h3>
+            <img src="image-illustrateur.jpg" alt="Illustration Jean Myrtheau" class="illustrator-image">
+        </div>
+
+        <div class="about-content">
+            <!-- Texte à gauche -->
+            <div class="bio-text">
+                <h3>Je suis Jean Myrtheau, étudiant passionné par la création de sites web modernes et interactifs.</h3>
+                <p>Je suis étudiant en développement web et je cherche à améliorer mes compétences en HTML, JavaScript et CSS.</p>
+                <p>J'adore transformer mes idées en projets concrets et expérimenter avec les nouvelles technologies.</p>
+            </div>
+
+            <!-- Photo de profil à droite -->
+            <div class="profile-photo">
+                <img src="Photo profil.jpg" alt="Jean Myrtheau" class="photo">
+            </div>
+        </div>
+
+        <h2>Mes centres d’intérêt</h2>
+        <ul>
+            <li>Web Development</li>
+            <li>Intelligence Artificielle</li>
+            <li>Data Science</li>
+        </ul>
+
+        <h2>Téléchargez mon CV</h2>
+        <p><a href="CV_Jean_Myrtheau.pdf", download>Télécharger mon CV</a></p>
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="skills">
+        <h2>Mes compétences</h2>
+        <div class="skills-container">
+            <!-- Hard Skills -->
+            <div class="skills-section">
+                <h3>Hard Skills</h3>
+                <ul>
+                    <li>HTML
+                        <div class="progress-bar"><div class="hard-skill" style="width: 80%;"></div></div>
+                    </li>
+                    <li>CSS
+                        <div class="progress-bar"><div class="hard-skill" style="width: 75%;"></div></div>
+                    </li>
+                    <li>JavaScript
+                        <div class="progress-bar"><div class="hard-skill" style="width: 70%;"></div></div>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Soft Skills -->
+            <div class="skills-section">
+                <h3>Soft Skills</h3>
+                <ul>
+                    <li>Communication
+                        <div class="progress-bar"><div class="soft-skill" style="width: 90%;"></div></div>
+                    </li>
+                    <li>Travail en équipe
+                        <div class="progress-bar"><div class="soft-skill" style="width: 85%;"></div></div>
+                    </li>
+                    <li>Créativité
+                        <div class="progress-bar"><div class="soft-skill" style="width: 80%;"></div></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projects">
+        <h2>Mes Projets</h2>
+
+        <!-- Jeu 1: Devine le nombre -->
+        <div class="game-container">
+            <h3>Jeu 1 : Devine le nombre</h3>
+            <button class="game-button" id="game1Button">Voir</button>
+            <p id="game1Result"></p>
+        </div>
+
+        <!-- Jeu 2: Change la couleur -->
+        <div class="game-container">
+            <h3>Jeu 2 : Change la couleur</h3>
+            <button class="game-button" id="game2Button">Voir</button>
+            <p id="game2Result"></p>
+        </div>
+
+        <!-- Jeu 3: Quiz -->
+        <div class="game-container">
+            <h3>Jeu 3 : Quiz</h3>
+            <button class="game-button" id="game3Button">Voir</button>
+            <p id="game3Result"></p>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact">
+        <h2>Contactez-moi</h2>
+        <form action="mailto:jeanmyrtheauj@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Sujet :</label>
+            <input type="text" id="subject" name="subject" required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Jean Myrtheau</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

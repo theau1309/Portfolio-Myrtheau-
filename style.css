@@ -1,0 +1,168 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Section À propos */
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d3d3d3; /* Fond gris */
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.bio-text {
+    max-width: 600px;
+}
+
+.profile-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-photo img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 3px solid #FF5722;
+    background-color: gray; /* Fond gris pour la photo */
+}
+
+/* Section Image Illustrateur */
+.illustrator {
+    text-align: center;
+    background-color: #fff; /* Fond blanc */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.illustrator h3 {
+    margin-bottom: 10px;
+}
+
+.illustrator-image {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    margin-top: 10px;
+}
+
+/* Section Projets */
+.game-container {
+    background-color: #d3d3d3; /* Fond gris pour les jeux */
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.game-button {
+    background-color: #00BCD4; /* Bleu turquoise pour le bouton */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.game-button:hover {
+    background-color: #444;
+}
+
+/* Section Compétences */
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.skills-section {
+    width: 45%;
+    background-color: #d3d3d3; /* Fond gris pour les compétences */
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.progress-bar div {
+    height: 20px;
+    border-radius: 5px;
+}
+
+.soft-skill {
+    background-color: #00BCD4; /* Bleu turquoise pour les Soft Skills */
+}
+
+.hard-skill {
+    background-color: #00BCD4; /* Bleu turquoise pour les Hard Skills */
+}
+
+/* Section Contact */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+
+form label {
+    margin: 5px 0;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    margin: 5px 0;
+}
+
+form button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #444;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
